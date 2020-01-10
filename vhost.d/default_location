@@ -1,0 +1,2 @@
+# Circumvent use of Volume meaning this file doesn't get updated
+include /etc/nginx/vhost.extra/default_location.conf;
