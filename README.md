@@ -1,6 +1,13 @@
 # Docker NGINX Proxy with Caching
 
-# Notes:
+
+## Purging Cache
+
+```bash
+curl -X PURGE -D - "https://www.example.com/*"
+```
+
+## Notes:
 
 For existing setups, will need volumes for /etc/nginx/vhost.d to be removed (or updated to match those defined in this image) 
 in order for caching to take effect.
