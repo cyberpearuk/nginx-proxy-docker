@@ -16,5 +16,6 @@ Won't work if the upstream updates cookies each time - e.g. when using XDebug (a
 
 Shouldn't cache content when users are logged in.
 
+## Maintainer
 
-
+This repository is maintained by [Black Pear Digital](https://www.blackpeardigital.co.uk).
